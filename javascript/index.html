@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>javascript手册 | 黑夜键盘手的博客</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/Book/avatar.png">
+    <link rel="manifest" href="/Book/avatar.png">
+    <link rel="apple-touch-icon" href="/Book/avatar.png">
+    <meta name="description" content="黑夜键盘手的博客">
+    <link rel="preload" href="/Book/assets/css/0.styles.1ab913a7.css" as="style"><link rel="preload" href="/Book/assets/js/app.e93a8c16.js" as="script"><link rel="preload" href="/Book/assets/js/2.ae30280c.js" as="script"><link rel="preload" href="/Book/assets/js/11.42bc8cb7.js" as="script"><link rel="prefetch" href="/Book/assets/js/10.1c79b0fd.js"><link rel="prefetch" href="/Book/assets/js/12.1d6a8d24.js"><link rel="prefetch" href="/Book/assets/js/13.89de5630.js"><link rel="prefetch" href="/Book/assets/js/14.ccab402b.js"><link rel="prefetch" href="/Book/assets/js/15.e7acb49b.js"><link rel="prefetch" href="/Book/assets/js/16.bbdfe50c.js"><link rel="prefetch" href="/Book/assets/js/3.8099ba9f.js"><link rel="prefetch" href="/Book/assets/js/4.c5015065.js"><link rel="prefetch" href="/Book/assets/js/5.127bcce8.js"><link rel="prefetch" href="/Book/assets/js/6.1db77680.js"><link rel="prefetch" href="/Book/assets/js/7.3dd4a00f.js"><link rel="prefetch" href="/Book/assets/js/8.889330e5.js"><link rel="prefetch" href="/Book/assets/js/9.05501753.js">
+    <link rel="stylesheet" href="/Book/assets/css/0.styles.1ab913a7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Book/" class="home-link router-link-active"><img src="/Book/avatar.png" alt="黑夜键盘手的博客" class="logo"> <span class="site-name can-hide">黑夜键盘手的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Book/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/Book/html/" class="nav-link">
+  html
+</a></div><div class="nav-item"><a href="/Book/css/" class="nav-link">
+  css
+</a></div><div class="nav-item"><a href="/Book/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></div><div class="nav-item"><a href="/Book/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/Book/wechat/" class="nav-link">
+  小程序
+</a></div><div class="nav-item"><a href="/Book/tools/" class="nav-link">
+  工具/插件
+</a></div><div class="nav-item"><a href="/Book/interview/" class="nav-link">
+  前端面试专题
+</a></div><div class="nav-item"><a href="/Book/company/" class="nav-link">
+  公司相关
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Book/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/Book/html/" class="nav-link">
+  html
+</a></div><div class="nav-item"><a href="/Book/css/" class="nav-link">
+  css
+</a></div><div class="nav-item"><a href="/Book/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></div><div class="nav-item"><a href="/Book/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/Book/wechat/" class="nav-link">
+  小程序
+</a></div><div class="nav-item"><a href="/Book/tools/" class="nav-link">
+  工具/插件
+</a></div><div class="nav-item"><a href="/Book/interview/" class="nav-link">
+  前端面试专题
+</a></div><div class="nav-item"><a href="/Book/company/" class="nav-link">
+  公司相关
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>javascript手册</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Book/javascript/#前言" class="sidebar-link">前言</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Book/javascript/#javascript知识原理" class="sidebar-link">javascript知识原理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Book/javascript/#http状态码" class="sidebar-link">http状态码</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#实现手机、电话号码前端脱敏工具类" class="sidebar-link">实现手机、电话号码前端脱敏工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#什么是闭包？闭包的优缺点？" class="sidebar-link">什么是闭包？闭包的优缺点？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#for-in-和-for-of区别" class="sidebar-link">for in 和 for of区别</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#this指向问题？" class="sidebar-link">this指向问题？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#浏览器如何阻止事件传播，阻止默认行为" class="sidebar-link">浏览器如何阻止事件传播，阻止默认行为</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#虚拟dom方案相对原生dom操作有什么优点，实现上是什么原理？" class="sidebar-link">虚拟DOM方案相对原生DOM操作有什么优点，实现上是什么原理？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#浏览器根据请求的url交给dns域名解析，找到真实ip，向服务器发起请求；" class="sidebar-link">浏览器根据请求的URL交给DNS域名解析，找到真实IP，向服务器发起请求；</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#localstorage-与-sessionstorage-与cookie的区别总结" class="sidebar-link">localStorage 与 sessionStorage 与cookie的区别总结</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#浏览器事件机制中事件触发三个阶段" class="sidebar-link">浏览器事件机制中事件触发三个阶段</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#浏览器缓存原理？" class="sidebar-link">浏览器缓存原理？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#为什么操作-dom-慢" class="sidebar-link">为什么操作 DOM 慢?</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#什么情况会阻塞渲染？" class="sidebar-link">什么情况会阻塞渲染？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#如何判断js运行在浏览器中还是node中？" class="sidebar-link">如何判断js运行在浏览器中还是node中？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#关于web以及浏览器处理预加载有哪些思考？" class="sidebar-link">关于web以及浏览器处理预加载有哪些思考？</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#实现页面回退刷新" class="sidebar-link">实现页面回退刷新</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#关于预检请求" class="sidebar-link">关于预检请求</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#tcp和udp协议" class="sidebar-link">TCP和UDP协议</a></li></ul></li><li><a href="/Book/javascript/#移动端自适配脚本" class="sidebar-link">移动端自适配脚本</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Book/javascript/#rem-js" class="sidebar-link">rem.js</a></li></ul></li><li><a href="/Book/javascript/#javascript常用工具类" class="sidebar-link">javascript常用工具类</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Book/javascript/#类型区分工具类" class="sidebar-link">类型区分工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#日期-时间格式化工具类" class="sidebar-link">日期/时间格式化工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#数组工具类" class="sidebar-link">数组工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#字符串工具类" class="sidebar-link">字符串工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#number工具类" class="sidebar-link">Number工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#文件转换工具类" class="sidebar-link">文件转换工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#window对象工具类" class="sidebar-link">window对象工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#http请求的工具类" class="sidebar-link">HTTP请求的工具类</a></li><li class="sidebar-sub-header"><a href="/Book/javascript/#封装jsonp" class="sidebar-link">封装JSONP</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="javascript手册"><a href="#javascript手册" class="header-anchor">#</a> javascript手册</h1> <h2 id="前言"><a href="#前言" class="header-anchor">#</a> 前言</h2> <p>javascript手册主要致力于前端开发和工程化所提取出来的公共的方法、模块、工具类的API，同样也是方便日常项目的开发效率提升</p> <h2 id="javascript知识原理"><a href="#javascript知识原理" class="header-anchor">#</a> javascript知识原理</h2> <h3 id="http状态码"><a href="#http状态码" class="header-anchor">#</a> http状态码</h3> <ul><li>1**: 服务器收到请求, 需请求者进一步操作</li> <li>2**: 请求成功</li> <li>3**: 重定向, 资源被转移到其他URL了</li> <li>4**: 客户端错误, 请求语法错误或没有找到相应资源</li> <li>5**: 服务端错误, server error</li></ul> <h3 id="实现手机、电话号码前端脱敏工具类"><a href="#实现手机、电话号码前端脱敏工具类" class="header-anchor">#</a> 实现手机、电话号码前端脱敏工具类</h3> <p>function phoneFilter (value) {
+if (!value) {
+return '--'
+}
+return value.replace(/(\d{3})(\s|\d|-)+(\d{4})/, '$1****$3')
+}</p> <p>/**</p> <ul><li>中文脱敏 可以脱敏姓名 长字符串</li> <li>姓名脱敏处理，规则：3个字以内脱敏第一个字，4—6个字脱敏前两个字，大于6个字脱敏第3—6个字，示例：张三（<em>三）、张三水（<em>三水）、长孙无忌（**无忌）、罗斯托罗司机格（罗斯XXXX格）
+**/
+function stringFilter(str){
+if(null != str &amp;&amp; str != undefined){
+if(str.length &lt;= 3){
+return &quot;</em>&quot; + str.substring(1,str.length);
+} else if(str.length &gt; 3 &amp;&amp; str.length &lt;= 6){
+return &quot;**&quot; + str.substring(2,str.length);
+} else if(str.length &gt; 6){
+return str.substring(0,2) + &quot;</em>***&quot; + str.substring(6,str.length)
+}
+} else {
+return &quot;&quot;;
+}
+}</li></ul> <h3 id="什么是闭包？闭包的优缺点？"><a href="#什么是闭包？闭包的优缺点？" class="header-anchor">#</a> 什么是闭包？闭包的优缺点？</h3> <ul><li><p>概念: 内层函数能够访问外层函数作用域的变量</p></li> <li><p>缺点: 引起内存泄漏（释放内存）</p></li> <li><p>作用:</p> <ul><li>保护this指向</li> <li>使用闭包修正打印值</li> <li>实现柯里化</li> <li>实现node commonJs 模块化, 实现私有变量</li> <li>保持变量与函数活性, 可延迟回收和执行</li></ul> <h3 id="for-in-和-for-of区别"><a href="#for-in-和-for-of区别" class="header-anchor">#</a> for in 和 for of区别</h3></li> <li><p><code>for in</code>遍历数组会遍历到数组原型上的属性和方法, 更适合遍历对象</p></li> <li><p><code>forEach</code>不支持<code>break, continue, return</code>等</p></li> <li><p>使用<code>for of</code>可以成功遍历数组的值, 而不是索引, 不会遍历原型</p></li> <li><p>for in 可以遍历到myObject的原型方法method,如果不想遍历原型方法和属性的话，可以在循环内部判断一下,hasOwnPropery方法可以判断某属性是否是该对象的实例属性</p></li></ul> <h3 id="this指向问题？"><a href="#this指向问题？" class="header-anchor">#</a> this指向问题？</h3> <ul><li>谁调用了方法，该方法的this就指向谁;</li> <li>优先级：箭头函数 &gt; new绑定 &gt; 显示绑定 &gt; 隐式绑定</li></ul> <h3 id="浏览器如何阻止事件传播，阻止默认行为"><a href="#浏览器如何阻止事件传播，阻止默认行为" class="header-anchor">#</a> 浏览器如何阻止事件传播，阻止默认行为</h3> <ul><li>阻止事件传播(冒泡): e.stopPropagation()</li> <li>阻止默认行为: e.preventDefault()</li></ul> <h3 id="虚拟dom方案相对原生dom操作有什么优点，实现上是什么原理？"><a href="#虚拟dom方案相对原生dom操作有什么优点，实现上是什么原理？" class="header-anchor">#</a> 虚拟DOM方案相对原生DOM操作有什么优点，实现上是什么原理？</h3> <p>虚拟DOM可提升性能, 无须整体重新渲染, 而是局部刷新.
+JS对象, diff算法</p> <h3 id="浏览器根据请求的url交给dns域名解析，找到真实ip，向服务器发起请求；"><a href="#浏览器根据请求的url交给dns域名解析，找到真实ip，向服务器发起请求；" class="header-anchor">#</a> 浏览器根据请求的URL交给DNS域名解析，找到真实IP，向服务器发起请求；</h3> <p>- 服务器交给后台处理完成后返回数据，浏览器接收文件（HTML、JS、CSS、图象等）；</p> <ul><li>浏览器对加载到的资源（HTML、JS、CSS等）进行语法解析，建立相应的内部数据结构（如HTML的DOM Tree）；</li> <li>载入解析到的资源文件，渲染页面，完成。</li></ul> <h3 id="localstorage-与-sessionstorage-与cookie的区别总结"><a href="#localstorage-与-sessionstorage-与cookie的区别总结" class="header-anchor">#</a> localStorage 与 sessionStorage 与cookie的区别总结</h3> <ul><li><strong>共同点</strong>: 都保存在浏览器端, 且同源</li> <li>localStorage 与 sessionStorage 统称webStorage,保存在浏览器,不参与服务器通信,大小为5M</li> <li><strong>生命周期不同</strong>: localStorage永久保存, sessionStorage当前会话, 都可手动清除</li> <li><strong>作用域不同</strong>: 不同浏览器不共享local和session, 不同会话不共享session</li> <li><strong>Cookie</strong>: 设置的过期时间前一直有效, 大小4K.有个数限制, 各浏览器不同, 一般为20个.携带在HTTP头中, 过多会有性能问题.可自己封装, 也可用原生</li></ul> <h3 id="浏览器事件机制中事件触发三个阶段"><a href="#浏览器事件机制中事件触发三个阶段" class="header-anchor">#</a> 浏览器事件机制中事件触发三个阶段</h3> <ul><li><strong>事件捕获阶段</strong>: 从dom树节点往下找到目标节点, 不会触发函数</li> <li><strong>事件目标处理函数</strong>: 到达目标节点</li> <li><strong>事件冒泡</strong>: 最后从目标节点往顶层元素传递, 通常函数在此阶段执行.
+addEventListener第三个参数默认false(冒泡阶段执行),true(捕获阶段执行).
+阻止冒泡见以上方法</li></ul> <h3 id="浏览器缓存原理？"><a href="#浏览器缓存原理？" class="header-anchor">#</a> 浏览器缓存原理？</h3> <p>-浏览器缓存就是把一个已经请求过的资源拷贝一份存储起来，当下次需要该资源时，浏览器会根据缓存机制决定直接使用缓存资源还是再次向服务器发送请求.</p> <ul><li>作用: 减少网络传输的损耗以及降低服务器压力。</li> <li>缓存位置优先级：Service Worker &gt; Memory Cache &gt; Disk Cache &gt; Push Cache. 都没有命中，就会向服务器发请求</li> <li>策略优先级: 强制缓存 &gt; 协商缓存; cache-control &gt; Expires &gt; Etag &gt; Last-modified</li></ul> <h3 id="为什么操作-dom-慢"><a href="#为什么操作-dom-慢" class="header-anchor">#</a> 为什么操作 DOM 慢?</h3> <p>DOM本身是一个js对象, 操作这个对象本身不慢, 但是操作后触发了浏览器的行为, 如repaint和reflow等浏览器行为, 使其变慢</p> <h3 id="什么情况会阻塞渲染？"><a href="#什么情况会阻塞渲染？" class="header-anchor">#</a> 什么情况会阻塞渲染？</h3> <ul><li>js脚本同步执行</li> <li>css和图片虽然是异步加载, 但js文件执行需依赖css, 所以css也会阻塞渲染</li></ul> <h3 id="如何判断js运行在浏览器中还是node中？"><a href="#如何判断js运行在浏览器中还是node中？" class="header-anchor">#</a> 如何判断js运行在浏览器中还是node中？</h3> <p>判断有无全局对象global和window</p> <h3 id="关于web以及浏览器处理预加载有哪些思考？"><a href="#关于web以及浏览器处理预加载有哪些思考？" class="header-anchor">#</a> 关于web以及浏览器处理预加载有哪些思考？</h3> <p>图片等静态资源在使用之前就提前请求
+资源使用到的时候能从缓存中加载, 提升用户体验
+页面展示的依赖关系维护</p> <h3 id="实现页面回退刷新"><a href="#实现页面回退刷新" class="header-anchor">#</a> 实现页面回退刷新</h3> <ul><li>旧: window.history.back() + window.location.href=document.referrer;</li> <li>新: HTML5的新API扩展了window.history，使历史记录点更加开放了。可以存储当前历史记录点、替换当前历史记录点、监听历史记录点onpopstate, replaceState</li></ul> <h3 id="关于预检请求"><a href="#关于预检请求" class="header-anchor">#</a> 关于预检请求</h3> <p>在非简单请求且跨域的情况下，浏览器会自动发起options预检请求。</p> <h3 id="tcp和udp协议"><a href="#tcp和udp协议" class="header-anchor">#</a> TCP和UDP协议</h3> <ul><li>TCP（Transmission Control Protocol：传输控制协议；面向连接，可靠传输</li> <li>UDP（User Datagram Protocol）：用户数据报协议；面向无连接，不可靠传输</li></ul> <h2 id="移动端自适配脚本"><a href="#移动端自适配脚本" class="header-anchor">#</a> 移动端自适配脚本</h2> <p>随着互联网时代的不断发展，无时无刻都有人在看手机，而越来越多的企业也会选择从传统pc迈入移动wap。
+由此而然负责用户界面的前端开发人员也要因为此考虑多设备的匹配、兼容性、自适应性等，网上也有不少em和rem的适配方案，比如淘宝的flexble.js，我用了一下感觉太麻烦了，所以就自己简单的实现了一下，测试可行!</p> <p>使用步骤</p> <ul><li>在项目根目录创建一个js文件夹，在该文件夹下新建一个rem.js</li> <li>复制上面的代码到rem.js中并保存</li> <li>在需要使用到rem的页面文件或者模块中引入该js文件即可</li> <li>最后在公共的样式文件设置html,body元素一个默认的字体大小即可</li> <li>PS: 公式: 750(设计稿) / 100 * 2 = 具体的rem单位，比如12px = 0.24rem</li></ul> <p>举个例子</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;!-- set stylesheet --&gt;
+&lt;style&gt;
+    html,
+    body {
+        font-size: 0.24rem
+    }
+&lt;/style&gt;
+
+&lt;!-- import javascript --&gt;
+&lt;script src=&quot;../js/rem.js&quot;&gt;&lt;/script&gt;
+</code></pre></div><h3 id="rem-js"><a href="#rem-js" class="header-anchor">#</a> rem.js</h3> <div class="language- extra-class"><pre class="language-text"><code>    (function() {
+    'use strict';
+    window.onresize = function() {
+        changeFontSize();
+
+    }
+
+    function changeFontSize() {
+        var W = document.documentElement.clientWidth;
+        var docEl = document.documentElement;
+
+        if (W &gt; 750) {
+            W = 750;
+            docEl.style.fontSize = '100px';
+        }
+        document.getElementsByTagName('html')[0].style.fontSize = W / 7.5 + 'px';
+    }
+    changeFontSize();
+
+})();
+</code></pre></div><h2 id="javascript常用工具类"><a href="#javascript常用工具类" class="header-anchor">#</a> javascript常用工具类</h2> <h3 id="类型区分工具类"><a href="#类型区分工具类" class="header-anchor">#</a> 类型区分工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>    /**
+ * -------------------------------------------------------------------------------------------------------------
+ * 类型区分
+ */
+//是否字符串
+function isString(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'String'
+}
+
+//是否数字
+function isNumber(o) {
+    return Object.prototype.toString.call(o).slice(8, -1) === 'Number'
+}
+
+// 是否对象
+function isObj(params) { //是否对象
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Object'
+}
+
+// 是否数组
+function isArray(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Array'
+}
+
+// 是否时间
+function isDate(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Date'
+}
+
+// 是否布尔值
+function isBoolean(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Boolean'
+}
+
+// 是否函数
+function isFunction(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Function'
+}
+
+//是否为null
+function isNull(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Null'
+}
+
+//是否undefined
+function isUndefined(params) {
+    return Object.prototype.toString.call(params).slice(8, -1) === 'Undefined'
+}
+
+// 是否为false
+function isFalse(params) {
+    if (!params || params === 'null' || params === 'undefined' || params === 'false' || params === 'NaN') return true
+    return false
+}
+
+// 是否为true
+function isTrue(paramso) {
+    return !this.isFalse(params)
+}
+
+// 是否ios
+function isIos() {
+    var u = navigator.userAgent;
+    if (u.indexOf('Android') &gt; -1 || u.indexOf('Linux') &gt; -1) { //安卓手机
+        // return &quot;Android&quot;;
+        return false
+    } else if (u.indexOf('iPhone') &gt; -1) { //苹果手机
+        // return &quot;iPhone&quot;;
+        return true
+    } else if (u.indexOf('iPad') &gt; -1) { //iPad
+        // return &quot;iPad&quot;;
+        return false
+    } else if (u.indexOf('Windows Phone') &gt; -1) { //winphone手机
+        // return &quot;Windows Phone&quot;;
+        return false
+    } else {
+        return false
+    }
+}
+
+//是否为PC端
+function isPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = [&quot;Android&quot;, &quot;iPhone&quot;,
+        &quot;SymbianOS&quot;, &quot;Windows Phone&quot;,
+        &quot;iPad&quot;, &quot;iPod&quot;
+    ];
+    var flag = true;
+    for (var v = 0; v &lt; Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) &gt; 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+
+// 判断是什么浏览器
+function browserType() {
+    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+    var isOpera = userAgent.indexOf(&quot;Opera&quot;) &gt; -1; //判断是否Opera浏览器
+    var isIE = userAgent.indexOf(&quot;compatible&quot;) &gt; -1 &amp;&amp; userAgent.indexOf(&quot;MSIE&quot;) &gt; -1 &amp;&amp; !isOpera; //判断是否IE浏览器
+    var isEdge = userAgent.indexOf(&quot;Edge&quot;) &gt; -1; //判断是否IE的Edge浏览器
+    var isFF = userAgent.indexOf(&quot;Firefox&quot;) &gt; -1; //判断是否Firefox浏览器
+    var isSafari = userAgent.indexOf(&quot;Safari&quot;) &gt; -1 &amp;&amp; userAgent.indexOf(&quot;Chrome&quot;) == -1; //判断是否Safari浏览器
+    var isChrome = userAgent.indexOf(&quot;Chrome&quot;) &gt; -1 &amp;&amp; userAgent.indexOf(&quot;Safari&quot;) &gt; -1; //判断Chrome浏览器
+    if (isIE) {
+        var reIE = new RegExp(&quot;MSIE (\\d+\\.\\d+);&quot;);
+        reIE.test(userAgent);
+        var fIEVersion = parseFloat(RegExp[&quot;$1&quot;]);
+        if (fIEVersion == 7) return &quot;IE7&quot;
+        else if (fIEVersion == 8) return &quot;IE8&quot;;
+        else if (fIEVersion == 9) return &quot;IE9&quot;;
+        else if (fIEVersion == 10) return &quot;IE10&quot;;
+        else if (fIEVersion == 11) return &quot;IE11&quot;;
+        else return &quot;IE7以下&quot; //IE版本过低
+    }
+
+    if (isFF) return &quot;FF&quot;;
+    if (isOpera) return &quot;Opera&quot;;
+    if (isEdge) return &quot;Edge&quot;;
+    if (isSafari) return &quot;Safari&quot;;
+    if (isChrome) return &quot;Chrome&quot;;
+}
+
+// 判断是手机号码 、 身份证、邮政编码、QQ号码、邮箱、网址、IP、日期时间
+function checkStr(str, type) {
+    switch (type) {
+        case 'phone': //手机号码
+            return /^1[3|4|5|7|8][0-9]{9}$/.test(str);
+        case 'tel': //座机
+            return /^(0\d{2,3}-\d{7,8})(-\d{1,4})?$/.test(str);
+        case 'card': //身份证
+            return /^\d{15}|\d{18}$/.test(str);
+        case 'pwd': //密码以字母开头，长度在6~18之间，只能包含字母、数字和下划线
+            return /^[a-zA-Z]\w{5,17}$/.test(str)
+        case 'postal': //邮政编码
+            return /[1-9]\d{5}(?!\d)/.test(str);
+        case 'QQ': //QQ号
+            return /^[1-9][0-9]{4,9}$/.test(str);
+        case 'email': //邮箱
+            return /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(str);
+        case 'money': //金额(小数点2位)
+            return /^\d*(?:\.\d{0,2})?$/.test(str);
+        case 'URL': //网址
+            return /(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?/.test(
+                str)
+        case 'IP': //IP
+            return /((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))/.test(str);
+        case 'date': //日期时间
+            return /^(\d{4})\-(\d{2})\-(\d{2}) (\d{2})(?:\:\d{2}|:(\d{2}):(\d{2}))$/.test(str) ||
+                /^(\d{4})\-(\d{2})\-(\d{2})$/.test(str)
+            console.log(browserType())
+    }
+}
+</code></pre></div><h3 id="日期-时间格式化工具类"><a href="#日期-时间格式化工具类" class="header-anchor">#</a> 日期/时间格式化工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * 格式化时间
+ */
+
+/*获取某月有多少天*/
+function getMonthOfDay(time) {
+    var date = new Date(time)
+    var year = date.getFullYear()
+    var mouth = date.getMonth() + 1
+    var days
+
+    //当月份为二月时，根据闰年还是非闰年判断天数
+    if (mouth == 2) {
+        days = year % 4 == 0 ? 29 : 28
+    } else if (mouth == 1 || mouth == 3 || mouth == 5 || mouth == 7 || mouth == 8 || mouth == 10 || mouth == 12) {
+        //月份为：1,3,5,7,8,10,12 时，为大月.则天数为31；
+        days = 31
+    } else {
+        //其他月份，天数为：30.
+        days = 30
+    }
+    return days
+}
+
+</code></pre></div><h3 id="数组工具类"><a href="#数组工具类" class="header-anchor">#</a> 数组工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>    
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * Array数组操作
+ */
+
+
+ //数组转对象
+ //传入一个单挑数据的数据，返回一个对象，使其可以row.xxx访问属性
+function resultRow (arr) {
+    return arr[0]
+}
+举个例子
+var datas = [{id: 111, name: 'marike', age: 26}]
+var row = resultRow(datas)
+
+
+
+
+// 对象转换为数组对象
+function objToArrObj(obj) {
+    let arr = []
+    for (let i in obj) {
+        arr.push({
+            [i]: obj[i]
+        })
+    }
+    return arr
+}
+
+// 数组排序方法，type(1顺序 - 2倒叙 - 3随机)
+function arrSort(arr, type) {
+    return arr.sort((a, b) =&gt; {
+        switch (type) {
+            case 1:
+                return a - b;
+            case 2:
+                return b - a;
+            case 3:
+                return Math.random() - 0.5;
+            default:
+                return arr;
+        }
+    })
+}
+
+// 数组去重
+function arrUnique(arr) {
+    if (Array.hasOwnProperty('from')) {
+        return Array.from(new Set(arr));
+    } else {
+        var n = {},
+            r = [];
+        for (var i = 0; i &lt; arr.length; i++) {
+            if (!n[arr[i]]) {
+                n[arr[i]] = true;
+                r.push(arr[i]);
+            }
+        }
+        return r;
+    }
+}
+
+//根据残入的option去匹配返回对应的项
+function filterArray (arr,option) {
+    let {key,value} = option
+    return arr.filter(el =&gt; el[key] === value)
+}
+------举个例子
+let option = {key: '字段名比如id', value: 1}
+let tempArray = [
+    {id: 1, name: '张三'},
+    {id: 2, name: '李四'},
+    {id: 3, name: '王五'},
+]
+console.log(filterArray(tempArray,option))
+
+
+//在数组中找指定的元素,返回下标
+function arrFinNum(arr, num) {
+    let index = -1;
+    for (let i = 0; i &lt; arr.length; i++) {
+        if (num == arr[i]) {
+            index = i;
+            break;
+        }
+    }
+    return index;
+}
+
+
+/*求两个集合的并集*/
+function arrUnion(a, b) {
+    var newArr = a.concat(b);
+    return this.unique(newArr);
+}
+
+/*求两个集合的交集*/
+function arrIntersect(a, b) {
+    var _this = this;
+    a = this.unique(a);
+    return this.map(a, function (o) {
+        return _this.contains(b, o) ? o : null;
+    });
+}
+
+// 数组匹配删除对应元素
+function arrRemove(arr, ele) {
+    var index = arr.indexOf(ele);
+    if (index &gt; -1) {
+        arr.splice(index, 1);
+    }
+    return arr;
+}
+
+// 获取数组中最小值
+function arrMin(arr) {
+    return Math.min.apply(null, arr);
+}
+
+// 获取数组中最大值
+function arrMax(arr) {
+    return Math.max.apply(null, arr);
+}
+
+// 数组求和
+function arrSum(arr) {
+    return arr.reduce((pre, cur) =&gt; {
+        return pre + cur
+    })
+}
+
+// 求数组的平均值
+function arrRverage(arr) {
+    return this.arrSum(arr) / arr.length
+}
+</code></pre></div><h3 id="字符串工具类"><a href="#字符串工具类" class="header-anchor">#</a> 字符串工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>    
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * 字符串操作
+ */
+
+//  截取指定字符之前的字符串
+function beforeStrSub(str, char) {
+    return str.split(char)[0]
+}
+
+//  截取指定字符之后的字符串
+function afterStrSub(str, char) {
+    return str.split(char)[1]
+}
+
+//截取指定字符串之前之后的字符串
+function betweenStrSub(str, start, end) {
+    temp = str.split(start, 2);
+    content = temp[1].split(end, 2);
+    return content[0];
+}
+
+//字符串反转
+function strInversion(str) {
+    str = str + '';
+    let newStr = [];
+    newStr = str.split(&quot;&quot;).reverse().join(&quot;&quot;);
+    return newStr
+}
+
+//在字符串中查找指定的字符或者字符串
+function judgeStrHave(str, queryStr) {
+    return str.indexOf(queryStr) === -1 ? -1 : 1
+}
+
+
+
+//  去除字符串前后空格,1-所有空格  2-前后空格  3-前空格 4-后空格
+function trim(str, type) {
+    type = type || 1
+    switch (type) {
+        case 1:
+            return str.replace(/\s+/g, &quot;&quot;);
+        case 2:
+            return str.replace(/(^\s*)|(\s*$)/g, &quot;&quot;);
+        case 3:
+            return str.replace(/(^\s*)/g, &quot;&quot;);
+        case 4:
+            return str.replace(/(\s*$)/g, &quot;&quot;);
+        default:
+            return str;
+    }
+}
+
+// 大小写转换 1:首字母大写  2：首页母小写  3：大小写转换  4：全部大写  5：全部小写
+function changeCase(str, type) {
+    type = type || 4
+    switch (type) {
+        case 1:
+            return str.replace(/\b\w+\b/g, function (word) {
+                return word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+
+            });
+        case 2:
+            return str.replace(/\b\w+\b/g, function (word) {
+                return word.substring(0, 1).toLowerCase() + word.substring(1).toUpperCase();
+            });
+        case 3:
+            return str.split('').map(function (word) {
+                if (/[a-z]/.test(word)) {
+                    return word.toUpperCase();
+                } else {
+                    return word.toLowerCase()
+                }
+            }).join('')
+        case 4:
+            return str.toUpperCase();
+        case 5:
+            return str.toLowerCase();
+        default:
+            return str;
+    }
+}
+
+// 检测密码强度
+function checkPwd(str) {
+    var Lv = 0;
+    if (str.length &lt; 6) {
+        return Lv
+    }
+    if (/[0-9]/.test(str)) {
+        Lv++
+    }
+    if (/[a-z]/.test(str)) {
+        Lv++
+    }
+    if (/[A-Z]/.test(str)) {
+        Lv++
+    }
+    if (/[\.|-|_]/.test(str)) {
+        Lv++
+    }
+    return Lv;
+}
+</code></pre></div><h3 id="number工具类"><a href="#number工具类" class="header-anchor">#</a> Number工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>    
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * Number
+ */
+
+//  数量超过99显示99+
+function hide(val) {
+    val = val ? val - 0 : 0;
+    if (val &gt; 99) {
+        return &quot;99+&quot;
+    } else {
+        return val;
+    }
+}
+
+// 银行卡号分割
+function bank_filter(val) {
+    val += '';
+    val = val.replace(/(\s)/g, '').replace(/(\d{4})/g, '$1 ').replace(/\s*$/, '');
+    return val;
+}
+
+</code></pre></div><h3 id="文件转换工具类"><a href="#文件转换工具类" class="header-anchor">#</a> 文件转换工具类</h3> <p>blob file base64</p> <div class="language- extra-class"><pre class="language-text"><code>    
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * 文件格式转换file、blob、base64
+ */
+
+// base64转file
+function base64ToFile(base64, filename) {
+    let arr = base64.split(',')
+    let mime = arr[0].match(/:(.*?);/)[1]
+    let suffix = mime.split('/')[1] // 图片后缀
+    let bstr = atob(arr[1])
+    let n = bstr.length
+    let u8arr = new Uint8Array(n)
+    while (n--) {
+        u8arr[n] = bstr.charCodeAt(n)
+    }
+    return new File([u8arr], `${filename}.${suffix}`, {
+        type: mime
+    })
+}
+
+// base64转blob
+function base64ToBlob(base64) {
+    let arr = base64.split(','),
+        mime = arr[0].match(/:(.*?);/)[1],
+        bstr = atob(arr[1]),
+        n = bstr.length,
+        u8arr = new Uint8Array(n);
+    while (n--) {
+        u8arr[n] = bstr.charCodeAt(n);
+    }
+    return new Blob([u8arr], {
+        type: mime
+    });
+}
+
+// file转blob
+function blobToFile(blob, fileName) {
+    blob.lastModifiedDate = new Date();
+    blob.name = fileName;
+    return blob;
+};
+
+// file转base64
+function fileToBase64(file) {
+    let reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = function (e) {
+        return e.target.result
+    };
+}
+</code></pre></div><h3 id="window对象工具类"><a href="#window对象工具类" class="header-anchor">#</a> window对象工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>    
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * window
+ */
+
+// 获取浏览器视口尺寸
+function getViewportOffset() {
+    if (window.innerWidth) {
+        return {
+            w: window.innerWidth,
+            h: window.innerHeight
+        }
+    } else {
+        // ie8及其以下
+        if (document.compatMode === &quot;BackCompat&quot;) {
+            // 怪异模式
+            return {
+                w: document.body.clientWidth,
+                h: document.body.clientHeight
+            }
+        } else {
+            // 标准模式
+            return {
+                w: document.documentElement.clientWidth,
+                h: document.documentElement.clientHeight
+            }
+        }
+    }
+}
+
+
+
+// 获取地址栏传过来的参数
+function getQueryString(name) {
+    let reg = new RegExp(&quot;(^|&amp;)&quot; + name + &quot;=([^&amp;]*)(&amp;|$)&quot;);
+    let r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+}
+
+//  测试
+// http://localhost:3306/admin?id=111&amp;name=xxx
+// console.log(getQueryString('id'));  // 111
+// console.log(getQueryString('name'));  // xxx
+
+
+// 解析url数据传参
+function queryUrl(url) {
+    var objUrl = {};
+    var urlData = url.split('?')[1];
+    if (urlData) {
+        var urlArr = urlData.split('&amp;');
+        for (var i = 0, len = urlArr.length; i &lt; len; i++) {
+            var curArr = urlArr[i].split('=');
+            objUrl[curArr[0]] = curArr[1]
+        }
+        return objUrl
+    }
+}
+
+</code></pre></div><h3 id="http请求的工具类"><a href="#http请求的工具类" class="header-anchor">#</a> HTTP请求的工具类</h3> <div class="language- extra-class"><pre class="language-text"><code>对原生es6 fetch的简单请求封装
+/**
+ * -------------------------------------------------------------------------------------------------------------
+ * http 简单的fetch请求封装
+ */
+
+
+// 请求前缀url
+const baseUrl = &quot;http://172.30.37.33:8099/admin/oms&quot;;
+
+/*
+ * path: 请求路径
+ * method: 请求方法 默认get
+ * data: 请求参数 默认为空
+ * */
+function http(path, method = &quot;GET&quot;, data = {}) {
+
+    method = method.toUpperCase();
+
+    // 默认请求头
+    let requestHeader = {
+        headers: {
+            'content-type': 'application/json'
+        },
+        method
+    };
+
+    // 如果是get请求
+    if (method === &quot;GET&quot;) {
+        // 转换拼接get参数
+        let esc = encodeURIComponent;
+        let queryParams = Object.keys(data)
+            .map(k =&gt; `${esc(k)}=${esc(data[k])}`)
+            .join('&amp;');
+        if (queryParams) path += `?${queryParams}`;
+
+    } else {
+        // 其他请求 放入body里面
+        requestHeader.body = JSON.stringify(data)
+    }
+
+    // 可以在这封装一个回调函数，请求拦截
+
+
+    // 发送请求并返回 promise 对象 注意 fetch不会拦截其他异常请求️
+    return fetch(`${baseUrl}${path}`, requestHeader).then(
+        // 可在这里封装 响应拦截函数
+        response =&gt; response.json()
+    )
+}
+
+//调用实例
+// http(&quot;/api/v1/goods&quot;, &quot;get&quot;, {goodsId: 123}).then((data) =&gt; {
+//     console.log(data)
+// });
+</code></pre></div><h3 id="封装jsonp"><a href="#封装jsonp" class="header-anchor">#</a> 封装JSONP</h3> <div class="language- extra-class"><pre class="language-text"><code>function jsonp ({url, param, callback}) {
+  return new Promise((resolve, reject) =&gt; {
+    var script = document.createElement('script')
+    window.callback = function (data) {
+      resolve(data)
+      document.body.removeChild('script')
+    }
+    var param = {...param, callback}
+    var arr = []
+    for (let key in param) {
+      arr.push(`${key}=${param[key]}`)
+    }
+    script.src = `${url}?${arr.join('&amp;')}`
+    document.body.appendChild(script)
+  })
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Book/assets/js/app.e93a8c16.js" defer></script><script src="/Book/assets/js/2.ae30280c.js" defer></script><script src="/Book/assets/js/11.42bc8cb7.js" defer></script>
+  </body>
+</html>
